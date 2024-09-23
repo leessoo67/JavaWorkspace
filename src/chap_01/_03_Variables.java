@@ -6,5 +6,6 @@ public class _03_Variables {
         System.out.println("나도코딩님, 배송이 완료되엇습니다.");
         //test
         //test2
+        //why!!!!!!!!!!!!!!!!
     }
 }
