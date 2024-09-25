@@ -9,7 +9,7 @@ public class Test_9_25_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("띄어쓰기로 구분해주세요");
+//        System.out.println("띄어쓰기로 구분해주세요");
 
         //라인을 한 줄로 받음
         String input = scanner.nextLine();
@@ -23,3 +23,7 @@ public class Test_9_25_01 {
         System.out.println("b = " + b);
     }
 }
+
+
+
+
