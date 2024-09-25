@@ -37,6 +37,8 @@ public class _07_TypeCasting {
         s1 = Integer.toString(93);
         System.out.println(s1);
 
+
+
         String s2 = String.valueOf(98.8);
         s2 = Double.toString(98.8);
         System.out.println(s2);
