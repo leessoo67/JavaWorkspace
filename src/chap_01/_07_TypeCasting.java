@@ -30,6 +30,27 @@ public class _07_TypeCasting {
 
         int convertedScoreInt = (int)score_d; //191.8 > 191
         System.out.println(convertedScoreInt);
+        //double >float > long > int (수동 형변환)
+
+        //숫자를 문자열로
+        String s1 = String.valueOf(93);
+        s1 = Integer.toString(93);
+        System.out.println(s1);
+
+        String s2 = String.valueOf(98.8);
+        s2 = Double.toString(98.8);
+        System.out.println(s2);
+
+
+        //문자열을 숫자로
+        int i = Integer.parseInt("93");
+        System.out.println(i);
+
+        double d = Double.parseDouble("98.8");
+        System.out.println(d);
+
+
+
     }
 
 }
